@@ -17,7 +17,7 @@ const Footer = () => {
             <h5 className='text-white'>Links</h5>
             <p><Link to={'/'} style={{ textDecoration: 'none', color: 'white' }}>Home</Link></p>
             <p><Link to={'/triedrecipe'} style={{ textDecoration: 'none', color: 'white' }}>Tried Recipes</Link></p>
-            <p><Link to={'/videos'} style={{ textDecoration: 'none', color: 'white' }}>Videos</Link></p>
+            <p><Link to={'/video'} style={{ textDecoration: 'none', color: 'white' }}>Videos</Link></p>
           </div>
           {/* social media */}
           <div className='p-1' style={{ fontSize: '20px' }}>
